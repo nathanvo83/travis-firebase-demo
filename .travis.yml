@@ -7,4 +7,4 @@ install:
   - npm install
   - npm install -g firebase-tools
 after_success:
-  - firebase deploy --project arise-team-webapp --token $FIREBASE_TOKEN
+  - firebase deploy --project travis-firebase-demo --token $FIREBASE_TOKEN
